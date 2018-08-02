@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bonus17
 {
-    class UsedCar : Car
+    sealed class UsedCar : Car
     {
         //fields
         private double miles;
